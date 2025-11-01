@@ -1,10 +1,8 @@
 def je_prost(n):
     if n <= 1:
         return False
-    
     if n <= 3:
         return True
-    
     if n % 2 == 0 or n % 3 == 0:
         return False
     
@@ -18,9 +16,6 @@ def je_prost(n):
 
 print(je_prost(2))
 print(je_prost(11))
-print(je_prost(15))
-print(je_prost(1))
-print(je_prost(97))
 
 def prost_u_rangeu(start, end):
     def is_prime(n):
@@ -41,4 +36,3 @@ def prost_u_rangeu(start, end):
 
 print(prost_u_rangeu(1, 10))
 print(prost_u_rangeu(10, 30))
-

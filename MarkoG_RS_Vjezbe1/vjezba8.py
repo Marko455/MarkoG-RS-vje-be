@@ -4,4 +4,3 @@ def filter_parni(numbers):
 brojevi = [1, 2, 3, 4, 5, 6, 7, 8]
 parni = filter_parni(brojevi)
 print(parni)
-
